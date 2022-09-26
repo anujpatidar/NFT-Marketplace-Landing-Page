@@ -1,4 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/bc3d686231203de67d111be6bec8ecf7?family=TT+Firs+Neue);
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("//db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.eot");
+    src: url("//db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.woff") format("woff"), url("//db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bc3d686231203de67d111be6bec8ecf7.svg#TT Firs Neue") format("svg");
+}
 @import url(//db.onlinewebfonts.com/c/3cfb6ba699cffc8b1e7ac31a1741026b?family=TT+Firs+Neue+Thin);
 @font-face {
     font-family: "TT Firs Neue Thin";
