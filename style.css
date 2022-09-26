@@ -1,0 +1,400 @@
+@import url(//db.onlinewebfonts.com/c/bc3d686231203de67d111be6bec8ecf7?family=TT+Firs+Neue);
+@import url(//db.onlinewebfonts.com/c/3cfb6ba699cffc8b1e7ac31a1741026b?family=TT+Firs+Neue+Thin);
+@font-face {
+    font-family: "TT Firs Neue Thin";
+    src: url("//db.onlinewebfonts.com/t/3cfb6ba699cffc8b1e7ac31a1741026b.eot");
+    src: url("//db.onlinewebfonts.com/t/3cfb6ba699cffc8b1e7ac31a1741026b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3cfb6ba699cffc8b1e7ac31a1741026b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3cfb6ba699cffc8b1e7ac31a1741026b.woff") format("woff"), url("//db.onlinewebfonts.com/t/3cfb6ba699cffc8b1e7ac31a1741026b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3cfb6ba699cffc8b1e7ac31a1741026b.svg#TT Firs Neue Thin") format("svg");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "TT Firs Neue";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#left{
+    height: 100%;
+    width: 55%;
+    background-image: url(./bgleft.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    color: white;
+}
+#nav>h3{
+    margin-left: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#nav>h3>span{
+    color: #d8ff44;
+}
+
+#options>a{
+    padding-left: 50px;
+    font-family: "TT Firs Neue Thin";
+    color: white;
+    font-size: 13px;
+}
+#center{
+    padding: 80px 80px;
+    color: white;
+}
+
+#center>h1{
+    font-size: 60px;
+    line-height: 70px;
+}
+
+#center>h1>span{
+    color: #d8ff44;
+
+}
+
+#center>p{
+    font-family: "TT Firs Neue Thin";
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+#center>p>span{
+    color: white;
+    font-family: "TT Firs Neue Thin";
+}
+#buttons{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+#buttons>button{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #d8ff44;
+    
+}
+#buttons>button>i{
+    padding-left: 10px;
+    margin-bottom: 1px;
+}
+#buttons>a{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 30px;
+    font-family: "TT Firs Neue Thin";
+    font-size: 14px;
+}
+#buttons>a>i{
+    font-size: 40px;
+    padding-right: 10px;
+}
+#bottom{
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-top: 30px;
+}
+#bottom>a{
+    color: white;
+    font-family: "TT Firs Neue Thin";
+    font-size: 13px;
+}
+#bottom>img{
+    height: 15px;
+}
+#right{
+    height: 100%;
+    width: 45%;
+    background-image: url(./bg.jpg);
+        background-position: center;
+        background-size: cover;
+}
+
+#cw{
+    padding: 20px 25px;
+    color: white;
+    font-family: "TT Firs Neue Thin";
+    background-color: #151515;
+    border: none;
+    margin-top: 30px;
+    font-size: 13px;
+    outline: none;
+    position: absolute;
+    right: 80px;
+}
+#users{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    height: 10%;
+    margin-left: 40px;
+}
+#leftuser
+{
+    display: flex;
+}
+#img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: linear-gradient(#fff, #353535, #141416);
+}
+#circle1{
+    height: 95%;
+    width: 95%;
+    border-radius: 100%;
+    background-image: url(https://images.unsplash.com/photo-1614204424926-196a80bf0be8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80) ;
+    background-size: cover;
+    background-position: center;
+}
+#circle2{
+    height: 95%;
+    width: 95%;
+    border-radius: 100%;
+    background-image: url(https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1364&q=80) ;
+    background-size: cover;
+    background-position: center;
+}
+#circle3{
+    height: 95%;
+    width: 95%;
+    border-radius: 100%;
+    background-image: url(https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80) ;
+    background-size: cover;
+    background-position: center;
+}
+#img2{
+    position: absolute;
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: linear-gradient(#fff, #353535, #141416);
+}
+#img3{
+    position: absolute;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: linear-gradient(#fff, #353535, #141416);
+}
+#rightuser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+
+
+}
+#rightuser>h2{
+    font-size: 20px;
+}
+#rightuser>p{
+    font-size: 13px;
+    font-family: "TT Firs Neue Thin";
+    color: rgba(255, 255, 255, 0.6);
+}
+#scroll{
+    position: absolute;
+    right: 70px;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+#scroll>h2{
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-family: "TT Firs Neue Thin";
+}
+#scroll>img{
+    margin-top: 40px;
+    transform: rotate(90deg);
+    width: 120px;
+}
+#sclogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: linear-gradient(#fff, #e0ff70, #d8ff44);
+    margin-top: -10px;
+}
+#sclogo>img{
+    width: 95%;
+    z-index: 2;
+}
+#cards{
+    position: absolute;
+    left: 50%;
+    height: 50%;
+    width: 30%;
+    top: 20%;
+}
+
+#card1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 235px;
+    height: 320px;
+    border-radius: 30px;
+    background-image: linear-gradient(#212121,#111111);
+    transform: rotate(-15deg);
+
+}
+#card2{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background-image: linear-gradient(#212121,#111111);
+    left: 35%;
+    top: 20%;
+    transform: rotate(15deg);
+}
+
+#cardimg{
+    margin-top: 15px;
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+    background-image: url(./nft3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#cardimg2{
+    margin-top: 15px;
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+    background-image: url(./nft2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#star{
+    position: absolute;
+    top: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: linear-gradient(#fff,#353535, #141416);
+}
+#star1{
+    position: absolute;
+    top: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-image: linear-gradient(#fff,#353535, #141416);
+}
+#star2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+        height: 93%;
+        border-radius: 100%;
+        background-color: #141416;
+}
+#star2>img{
+    height: 60%;
+}
+
+#details{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#d1{
+    margin-top: 18%;
+    
+}
+#d1>span{
+    color: #d8d8d8;
+    font-size: 9px;
+    font-family: "TT Firs Neue Thin";
+}
+#d1>h2{
+    color: #d8ff44;
+    font-size: 17px;
+    font-family: "montserrat";
+    font-weight: 600;
+}
+
+#d1>p{
+    color: #e0e0e0;
+    font-size: 11px;
+        font-family: "TT Firs Neue Thin";
+}
+#hash{
+    color: #e0e0e0;
+    font-size: 11px;
+        font-family: "TT Firs Neue Thin";
+}
+
+#d2{
+    margin-top: 20%;
+    color: #fff;
+    font-family: "montserrat";
+    font-weight: 600;
+    font-size: 18px;
+}
+#d2>span{
+    color: #d8ff44;
+    font-family: "TT Firs Neue Thin";
+    font-size: 10px;
+}
